@@ -1,0 +1,135 @@
+/* General Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .adventure-hero {
+    position: relative;
+    height: 50vh;
+    background: url('https://www.shopghumakkad.com/cdn/shop/articles/2.png?v=1643630482&width=1080') center/cover no-repeat;
+  }
+  .adventure-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .adventure-hero-content {
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .adventure-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .adventure-hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  /* Filter Buttons Section */
+  .adventure-filter {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  .filter-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .filter-btn.active,
+  .filter-btn:hover {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  
+  /* Adventures Grid Section */
+  .adventure-grid-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  .container.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .adventure-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .adventure-card img {
+    width: 100%;
+    height: auto;
+  }
+  .adventure-card-content {
+    padding: 15px;
+    text-align: center;
+  }
+  .adventure-card-content h3 {
+    margin-bottom: 10px;
+  }
+  .adventure-card-content p {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .btn-primary {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Call-to-Action Section */
+  .adventure-cta {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .adventure-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .adventure-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  .btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn-secondary:hover {
+    background-color: #0069d9;
+  }
+  

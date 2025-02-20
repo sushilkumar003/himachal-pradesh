@@ -1,0 +1,134 @@
+/* General Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .gallery-hero {
+    position: relative;
+    height: 50vh;
+    background: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*5-T2iDMFcXAlcXjtpLP4Pg.jpeg') center/cover no-repeat;
+  }
+  .gallery-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery-hero-content {
+    color: #fff;
+    text-align: center;
+  }
+  .gallery-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .gallery-hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  /* Filter Buttons */
+  .gallery-filters {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  .filter-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .filter-btn.active,
+  .filter-btn:hover {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  
+  /* Gallery Grid */
+  .gallery-section {
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  .container.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .gallery-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery-item p {
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  .modal-caption {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    color: #ccc;
+    font-size: 1.2rem;
+  }
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

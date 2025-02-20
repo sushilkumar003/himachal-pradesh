@@ -1,0 +1,183 @@
+/* General Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .destinations-hero {
+    position: relative;
+    height: 60vh;
+    background: url('https://storage.justwravel.com/package/images/banner/detail_desktop/cropped/10-nights-11-days-himachal-tour-JustWravel-1726497168-Banner-A-(8).jpg.webp') center/cover no-repeat;
+  }
+  .destinations-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .destinations-content {
+    text-align: center;
+    color: #fff;
+  }
+  .destinations-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .destinations-content p {
+    font-size: 1.5rem;
+  }
+  
+  /* Carousel Section */
+  .carousel-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .carousel-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  .carousel-item {
+    position: relative;
+    flex: 0 0 auto;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  /* Destinations Grid Section */
+  .destinations-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  .destinations-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .destination-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .destination-card img {
+    width: 100%;
+    height: auto;
+  }
+  .destination-card h3 {
+    margin: 15px 0 10px;
+  }
+  .destination-card p {
+    padding: 0 15px 20px;
+    color: #555;
+  }
+  
+  /* Featured Itinerary Section */
+  .featured-itinerary-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .featured-itinerary-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .itinerary-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .itinerary-video iframe {
+    width: 560px;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .itinerary-info {
+    max-width: 500px;
+    text-align: left;
+  }
+  .itinerary-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  .itinerary-info li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  .btn:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .testimonial-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+  }
+  .testimonial-card h4 {
+    margin-top: 10px;
+    font-style: normal;
+    color: #333;
+  }
+  
